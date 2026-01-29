@@ -1,4 +1,4 @@
-生成問題 --> [[Local Geometry Learning]]
+生成問題 --> [[../Uncategorized/Local Geometry Learning]]
 
 
 對 Mode Collapse 免疫
