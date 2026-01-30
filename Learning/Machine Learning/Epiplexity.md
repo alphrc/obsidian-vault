@@ -1,11 +1,17 @@
-Related
+
 
 
 #### Meaning
+
 Learnable structured information
+
+The model can
+
+To leanr
 
 #### vs Entropy
 - Entropy: uncertainty in information
+- as
 
 
 ### 參考
