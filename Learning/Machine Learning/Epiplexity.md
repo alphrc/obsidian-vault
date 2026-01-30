@@ -1,4 +1,7 @@
 
+Meaning of "Epiplexity"
+- Learnable structured information
+
 
 
 #### Meaning
