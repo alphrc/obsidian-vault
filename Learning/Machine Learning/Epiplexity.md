@@ -1,4 +1,6 @@
 
+> **Warning**: This topic is not widely accepted in the academic community
+
 ### Material
 - [Paper Explanation on Youtube](https://www.youtube.com/watch?v=5xP7fZMaYmI)
 - [Paper Overview on Zhihu](https://zhuanlan.zhihu.com/p/1997642487322396508)
@@ -43,7 +45,7 @@
 - Is this method limited to specific neural network (transformer)? Does it still work in other neural network structure?
 - Would the measurement of Epiplexity itself consume a lot of energy, cancelling out the benefit?
 - Would synthetic data affect the training performance?
-- Epiplexity is not a new concept, it already exists
+- Epiplexity is not a new concept, it already exists in the field of Complex Systems
 
 
 ### Related Concepts
