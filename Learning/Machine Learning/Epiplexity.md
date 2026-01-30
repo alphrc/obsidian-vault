@@ -1,12 +1,9 @@
 
-Meaning of "Epiplexity"
-- Learnable structured information
+Basic
+- Proposed from [From Entropy to Epiplexity Rethinking Information for Computationally Bounded Intelligence (2601.03220v1)](../../Literatures/Papers/From%20Entropy%20to%20Epiplexity%20Rethinking%20Information%20for%20Computationally%20Bounded%20Intelligence%20(2601.03220v1).md)
+- Meaning: Learnable structured information
 
 
-
-#### Meaning
-
-Learnable structured information
 
 The model can
 
