@@ -13,5 +13,5 @@ abstract: "Can we learn more from data than existed in the generating process it
 comments: ""
 pdf: "[[pdfs/From Entropy to Epiplexity Rethinking Information for Computationally Bounded Intelligence (2601.03220v1).pdf]]"
 url: https://arxiv.org/abs/2601.03220v1
-tags: []
+tags:
 ---
