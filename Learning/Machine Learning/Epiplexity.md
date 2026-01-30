@@ -6,8 +6,9 @@
 
 ### Basic
 - A new term proposed from [From Entropy to Epiplexity Rethinking Information for Computationally Bounded Intelligence (2601.03220v1)](../../Literatures/Papers/From%20Entropy%20to%20Epiplexity%20Rethinking%20Information%20for%20Computationally%20Bounded%20Intelligence%20(2601.03220v1).md)
-- **Meaning**: Learnable structured information
-
+- **Meaning**: Learnable structured information under bounded computation
+	- **"Learning"**: compressible and understandable
+- Not a generally accepted concept, still debating
 
 ### Comparison with [Entropy](Entropy.md)
 - Entropy measures uncertainty in information, a classical theory in information theory
@@ -26,7 +27,24 @@
 - **Example**: The information abundance of $\pi$ is very small as it can be fully represented by a few lines of code given **unbounded computation**, and we can obtain infinite figures in infinite time, so in this circumstance, $\pi$ is very simple without any uncertainty. Yet if computation is bounded and the computer cannot generate later figures of $\pi$, it would seem "random" to AI.
 - So under classical theory, given unbounded computation, we can just feed large amount of data to AI and it will learn the pattern. Yet in reality, the computation of AI is limited, so in order to predict the data, it must construct complicated model to obtain the result, leading to the occurrence of emergence, creating new information
 
+### New framework
+- $\text{Total information} = \text{Epiplexity} + \text{Time Bounded Entropy}$
+	- $\text{Time Bounded Entropy}$: Relative random noise to the model, might have underlying meaning, but unpredictable anyway under the bounded computation, so can only be treated as random noise. This is toxic and useless to AI models, would waste a lot of computation without actually learning anything
+- Two metrics to measure Epiplexity in data
+	1. Prequential Coding (预序估计)
+	2. Requential Coding (序列编码)
+- Then before training AI, we can first evaluate the data, keeping only those with high Epiplexity and removing those with high Entropy
+
+### Implication
+- Synthetic data might be a good way instead of a 权宜之计 to train models
+- We might need a lot less data to train a equally strong model, saving computation and thus energy
+
+### Criticism
+- Is this method limited to specific neural network (transformer)? Does it still work in other neural network structure?
+- Would the measurement of Epiplexity itself consume a lot of energy, cancelling out the benefit?
+- Would synthetic data affect the training performance?
+- Epiplexity is not a new concept, it already exists
 
 
-Related Concepts
+### Related Concepts
 - Kolmogrov complexity
